@@ -1,5 +1,7 @@
 package groomingSalon;
 
+//exercise 6 - 07. Grooming Salon
+
 public class Main {
 
     public static void main(String[] args) {
