@@ -18,7 +18,6 @@ public class P03_OddOccurrences {
         }
 
         List<String> result = new ArrayList<>();
-
         for (var entry : wordCounts.entrySet()) {
             if (entry.getValue() % 2 != 0) {
                 result.add(entry.getKey());
@@ -26,6 +25,5 @@ public class P03_OddOccurrences {
         }
 
         System.out.printf("%s\n", String.join(", ", result));
-
     }
 }
