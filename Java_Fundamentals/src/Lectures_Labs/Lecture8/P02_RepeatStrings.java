@@ -10,10 +10,9 @@ public class P02_RepeatStrings {
 
         StringBuilder result = new StringBuilder();
 
-        for (int i = 0; i < inputWordsArr.length; i++) {
-            for (int j = 0; j < inputWordsArr[i].length(); j++) {
-                result.append(inputWordsArr[i]);
-            }
+
+        for (String word : inputWordsArr) {
+            result.append(word.repeat(word.length()));
         }
 
         System.out.println(result);
