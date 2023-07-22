@@ -12,8 +12,8 @@ public class P02_MatchPhoneNumber {
 
         String text = scanner.nextLine();
 
-        String regexForNames = "\\+359([ -])2\\1\\d{3}\\1\\d{4}\\b";
-        Pattern pattern = Pattern.compile(regexForNames);
+        String regexForPhoneNumbers = "\\+359([ -])2\\1\\d{3}\\1\\d{4}\\b";
+        Pattern pattern = Pattern.compile(regexForPhoneNumbers);
         Matcher matcher = pattern.matcher(text);
 
         List<String> matchedPhoneNumbers = new ArrayList<>();
