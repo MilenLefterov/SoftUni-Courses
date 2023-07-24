@@ -53,7 +53,7 @@ public class P03_StarEnigma {
         for (String e : attackedPlanetsList) {
             System.out.printf("-> %s\n", e);
         }
-        
+
         System.out.printf("Destroyed planets: %d\n", destroyedPlanetsL.size());
         Collections.sort(destroyedPlanetsL);
         for (String e : destroyedPlanetsL) {
