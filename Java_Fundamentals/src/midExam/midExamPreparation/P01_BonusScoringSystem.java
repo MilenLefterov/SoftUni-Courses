@@ -1,4 +1,4 @@
-package midExam.old;
+package midExam.midExamPreparation;
 
 import java.util.Scanner;
 
