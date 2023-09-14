@@ -13,14 +13,18 @@ public class P03_DecimalToBinary {
 
 //        System.out.println(Integer.toBinaryString(decimalN));
 
-        while (decimalN > 0) {
-            stack.push(decimalN % 2);
-            decimalN /= 2;
-        }
+        if (decimalN == 0) {
+            System.out.print(0);
 
-        while (stack.size() > 0) {
-            System.out.print(stack.pop());
-        }
+        } else {
+            while (decimalN > 0) {
+                stack.push(decimalN % 2);
+                decimalN /= 2;
+            }
 
+            while (stack.size() > 0) {
+                System.out.print(stack.pop());
+            }
+        }
     }
 }
