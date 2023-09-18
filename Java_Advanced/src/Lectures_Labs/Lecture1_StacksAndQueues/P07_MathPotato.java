@@ -1,4 +1,4 @@
-package Lectures_Labs.Lecture1;
+package Lectures_Labs.Lecture1_StacksAndQueues;
 
 import java.util.PriorityQueue;
 import java.util.Scanner;
