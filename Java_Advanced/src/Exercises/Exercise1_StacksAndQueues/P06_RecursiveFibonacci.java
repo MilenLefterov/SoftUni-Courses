@@ -1,4 +1,4 @@
-package Exercises.Exercise1;
+package Exercises.Exercise1_StacksAndQueues;
 
 import java.util.Scanner;
 

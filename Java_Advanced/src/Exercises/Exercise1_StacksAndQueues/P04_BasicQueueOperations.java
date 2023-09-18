@@ -1,13 +1,12 @@
-package Exercises.Exercise1;
+package Exercises.Exercise1_StacksAndQueues;
 
-import java.awt.*;
 import java.util.*;
 
-public class P02_BasicStackOperations {
+public class P04_BasicQueueOperations {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Deque<Integer> stack = new ArrayDeque<>();
+        Deque<Integer> queue = new ArrayDeque<>();
 
         int[] commandsArr = Arrays.stream(scanner.nextLine().split("\\s+"))
                 .mapToInt(Integer::parseInt)
@@ -22,19 +21,19 @@ public class P02_BasicStackOperations {
         int X = commandsArr[2];
 
         for (int i = 0; i < N; i++) {
-            stack.push(inputArr[i]);
+            queue.offer(inputArr[i]);
         }
 
         for (int i = 0; i < S; i++) {
-            stack.pop();
+            queue.poll();
         }
 
-        if(stack.isEmpty()){
+        if (queue.isEmpty()) {
             System.out.println("0");
-        }else if(stack.contains(X)) {
+        } else if (queue.contains(X)) {
             System.out.print("true");
-        }else {
-            System.out.print(Collections.min(stack));
+        } else {
+            System.out.print(Collections.min(queue));
         }
 
     }
