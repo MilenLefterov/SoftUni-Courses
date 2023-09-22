@@ -1,6 +1,5 @@
 package Lectures_Labs.Lecture2_MultidimensionalArrays;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class P07_FindTheRealQueen {
