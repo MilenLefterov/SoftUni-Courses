@@ -32,6 +32,6 @@ public class P05_AverageStudentsGrades {
             }
             System.out.printf("(avg: %.2f)\n", sum / currentStudent.getValue().size());
         }
-        
+
     }
 }
