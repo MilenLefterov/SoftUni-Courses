@@ -17,7 +17,7 @@ public class P05_Phonebook {
 
             input = scanner.nextLine();
         }
-        
+
         input = scanner.nextLine();
         while (!"stop".equals(input)) {
             if (phoneBookMap.containsKey(input)) {
