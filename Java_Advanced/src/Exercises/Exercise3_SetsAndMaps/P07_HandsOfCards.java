@@ -36,9 +36,7 @@ public class P07_HandsOfCards {
         }
 
         return power;
-
     }
-
 
     public static int returnPower(String card) {
         int typePower = 0;
