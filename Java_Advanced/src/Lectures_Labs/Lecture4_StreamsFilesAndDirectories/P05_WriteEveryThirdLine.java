@@ -7,7 +7,7 @@ public class P05_WriteEveryThirdLine {
         String path = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\input.txt";
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(path)));
 
-        String pathForResults = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\Results\\P05_WriteEveryThirdLine-Result.txt";
+        String pathForResults = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\05.WriteEveryThirdLineOutput.txt";
         PrintWriter printer = new PrintWriter(new FileOutputStream(pathForResults));
 
         String line = reader.readLine();
