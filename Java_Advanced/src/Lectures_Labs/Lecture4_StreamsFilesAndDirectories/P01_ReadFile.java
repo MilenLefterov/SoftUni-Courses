@@ -15,5 +15,6 @@ public class P01_ReadFile {
             oneByte = fileInputStream.read();
         }
 
+        fileInputStream.close();
     }
 }
