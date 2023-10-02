@@ -9,7 +9,7 @@ public class P04_ExtractIntegers {
         String path = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\input.txt";
         Scanner scanner = new Scanner(new FileInputStream(path));
 
-        String pathForResults = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\Results\\P04_ExtractIntegers-Result.txt";
+        String pathForResults = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\04.ExtractIntegersOutput.txt";
         PrintWriter printer = new PrintWriter(new FileOutputStream(pathForResults));
 
         while (scanner.hasNext()) {

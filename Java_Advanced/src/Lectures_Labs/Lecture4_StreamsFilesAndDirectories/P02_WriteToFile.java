@@ -3,7 +3,6 @@ package Lectures_Labs.Lecture4_StreamsFilesAndDirectories;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class P02_WriteToFile {
@@ -12,7 +11,7 @@ public class P02_WriteToFile {
         String path = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\input.txt";
         FileInputStream fileInputStream = new FileInputStream(path);
 
-        String pathForResults = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\Results\\P02_WriteToFile-Result.txt";
+        String pathForResults = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\02.WriteToFileOutput.txt";
         FileOutputStream fileOutputStream = new FileOutputStream(pathForResults);
 
         Set<Character> punctuationsSet = Set.of(',', '.', '!', '?');

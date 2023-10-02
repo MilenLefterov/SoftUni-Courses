@@ -10,7 +10,7 @@ public class P03_CopyBytes {
         String path = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\input.txt";
         FileInputStream fileInputStream = new FileInputStream(path);
 
-        String pathForResults = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\Results\\P03_CopyBytes-Result.txt";
+        String pathForResults = "src\\Lectures_Labs\\Lecture4_StreamsFilesAndDirectories\\Files\\03.CopyBytesOutput.txt";
         FileOutputStream fileOutputStream = new FileOutputStream(pathForResults);
 
         int oneByte = fileInputStream.read();
